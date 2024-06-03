@@ -7,6 +7,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -21,7 +22,7 @@ body {
     line-height: 37.2px;
     text-decoration: none solid #4e5159;
     word-spacing: 0px;
-    position: color #4e5159;
+    color: #4e5159;
     height: 27.1875px;
     width: 44.2969px;
     margin: 8px 0 8px 0;
@@ -36,7 +37,7 @@ body {
     font-size: 20px;
     line-height: 28px;
     text-decoration: none solid #4e5159;
-    position: color #4e5159;
+    color: #4e5159;
     word-spacing: 0px;
     height: 58.5938px;
     width: 622.984px;
