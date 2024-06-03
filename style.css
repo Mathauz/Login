@@ -1,20 +1,30 @@
 @charset "UTF-8";
 
 *{
-    background-color: #ffffff;
+    background-color: #e8eaff;
+    font-family: "rubik";
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
 
 .esf{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 27.2px;
+    line-height: 37.2px;
     text-decoration: none solid #4e5159;
     word-spacing: 0px;
     position: color #4e5159;
     height: 27.1875px;
     width: 44.2969px;
-    margin: 0 0 8px 0;
+    margin: 8px 0 8px 0;
     display: inline-block;
     cursor: default;
     transform: none;
@@ -40,14 +50,12 @@
     border-radius: 8px;
 }
 
-a{
-    font-size: 13.6px;
-    line-height: 23.12px;
+div > a{
+    font-size: 15px;
+    line-height: 40.12px;
     text-decoration: none solid #557cf2;
     word-spacing: 0px;
-    position: color #557cf2;
-    height: auto;
-    width: auto;
+    color:#557cf2;
     display: inline;
     cursor: pointer;
     box-sizing: border-box;
@@ -55,9 +63,9 @@ a{
 }
 
 #but {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 30px;
     text-decoration: none solid #557cf2;
     text-align: center;
     white-space: nowrap;
@@ -75,4 +83,14 @@ a{
     box-sizing: border-box;
     box-shadow: rgba(2, 2, 2, 0.521) 0px 2px 1px 0px;
     border-radius: 32px;
+}
+
+.ainda{
+    font-size: 20px;
+    line-height: 27.2px;
+    word-spacing: 0px;
+    text-align: center;
+    height: 27px;
+    width: 622px;
+    margin: 24px 0px 0px 0px;
 }

@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+        </style>
 </head>
 <body>
     <div id="logo">
@@ -15,16 +19,15 @@
     <div>
         <form action="dados.php" method="post">
             <label class="esf" for="idemail">Email </label>
-            <input class="esd" type="email" name="email" id="idemail" placeholder="seuemail@gmail.com">
+            <input class="esd" type="email" name="email" id="idemail" placeholder="seuemail@gmail.com" required>
             <label class="esf" for="idsenha">Senha </label>
-            <input class="esd" type="password" name="senha" id="idsenha">
-            <a href="#">Esqueceu sua senha?</a>
+            <input class="esd" type="password" name="senha" id="idsenha" required>
+            <div><a href="#">Esqueceu sua senha?</a></div>
             <input id="but" type="submit" value="Entrar">
+            <div class="ainda">
+                Ainda não possui conta?<a class="ainda" href="#"> Conheça nosso serviço.</a>
+            </div>
         </form>
     </div> 
-    <div>
-        <p id="ainda">Ainda não possui conta? <a href="#">Conheça nosso serviço!</a>
-        </p>
-    </div>
 </body>
 </html>
